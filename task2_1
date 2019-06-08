@@ -1,1 +1,13 @@
 SELECT SUM(COL_19) FROM feedemand_sem1;
+
+
+
+
+
+
+
+
+
+
+
+Answer: 644224680
