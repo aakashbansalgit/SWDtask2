@@ -1,0 +1,1 @@
+SELECT SUM(COL_19) FROM feedemand_sem1;
