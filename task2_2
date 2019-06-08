@@ -1,0 +1,10 @@
+SELECT COUNT(COL_3) FROM feedemand_sem1 WHERE COL_3<20000
+
+
+
+
+
+
+
+
+Answer 8

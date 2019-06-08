@@ -1,0 +1,11 @@
+SELECT COUNT(COL_8) FROM feedemand_sem1 where COL_8=0
+
+
+
+
+
+
+
+
+
+Ans 388
