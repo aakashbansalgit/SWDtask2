@@ -1,0 +1,21 @@
+SELECT DISTINCT COL_1 FROM dramatics_oc_list where COL_1 NOT IN (SELECT COL_2 FROM dramatics_oc_db);
+SELECT DISTINCT COL_2 FROM dramatics_oc_db where COL_2 NOT IN (SELECT COL_1 FROM dramatics_oc_list)
+
+
+
+
+
+
+
+COL_1
+f20171204
+f20170607
+f20170478
+f20180011
+f20171059
+f20181072
+
+
+
+COL_2
+"EMPTY!!"

@@ -1,0 +1,3 @@
+ALTER TABLE feedemand_sem1
+ADD FinalFees INT;
+UPDATE feedemand_sem1 SET FinalFees=COL_19+COL_20
