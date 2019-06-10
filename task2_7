@@ -1,0 +1,18 @@
+SELECT DISTINCT COL_1 ,COL_2 ,COL_3 ,COL_4 ,COL_5 FROM user_pass WHERE COL_1 NOT IN (SELECT COL_1 FROM on_campus)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+70 pages of 25 rows each and 19 on the last page
