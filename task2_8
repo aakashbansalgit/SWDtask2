@@ -1,0 +1,9 @@
+ALTER TABLE us_pass2
+ADD onCampusCOL1 VARCHAR(255);
+SELECT ID
+FROM on_campus
+INNER JOIN us_pass2
+ON on_campus.ID = us_pass2.onCampusCOL1;
+UPDATE us_pass2
+SET On_Campus = 'YES'
+WHERE (SELECT DISTINCT COL_1 FROM us_pass2 NOT IN (SELECT onCampusCOL1 FROM us_pass2))
